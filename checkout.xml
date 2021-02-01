@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginHorizontal="50dp"
+        android:gravity="center"
+        android:text="CHECKOUT"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="23dp"
+        android:text="Alamat Penerima"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="-10dp"
+        android:id="@+id/isinama"
+        android:hint="" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="23dp"
+        android:text="Emina Official Shop"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="5dp"
+        android:text=""
+        android:background="@color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="23dp"
+        android:text="Voucher Toko                          >"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="-10dp"
+        android:id="@+id/alamat"
+        android:hint=" "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="23dp"
+        android:text="Opsi Pengiriman"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        android:id="@+id/bayar">
+        <RadioButton
+            android:layout_width="80dp"
+            android:layout_height="32dp"
+            android:id="@+id/mp1"
+            android:text="JNE"/>
+        <RadioButton
+            android:layout_width="80dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="-1dp"
+            android:id="@+id/mp2"
+            android:text="JNT"/>
+        <RadioButton
+            android:layout_width="150dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="-1dp"
+            android:id="@+id/mp3"
+            android:text="SiCepat"/>
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="23dp"
+        android:text="Total                     Rp. 23.000"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Volume"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#deb887"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="Total"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Buat Pesanan"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="#deb887"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:id="@+id/Surfacearea"/>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
