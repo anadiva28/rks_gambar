@@ -9,3 +9,4 @@ Dan inilah file-file yang digunakan, sebagai berikut :
 5. menutama.xml
 6. pembayaran.xml
 7. tampilancheckout.xml
+Kemudian, ini link ss : https://github.com/anadiva28/rks_gambar/issues/1
